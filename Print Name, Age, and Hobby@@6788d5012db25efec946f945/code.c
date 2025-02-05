@@ -9,6 +9,5 @@ int main() {
     print("Name: %s\n",a);
     print("Age: %d\n",c);
     print("Hobby: %s",b);
-    printf("%s", welcome());
     return 0;
 }
