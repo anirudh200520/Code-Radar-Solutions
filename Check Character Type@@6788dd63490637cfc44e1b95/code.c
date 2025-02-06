@@ -3,7 +3,6 @@
 
 int main() {
     char a;
-    printf("Enter a character: ");
     scanf(" %c", &a);  // Space before %c to handle newlines
 
     if (isdigit((unsigned char)a)) {  // Check if digit
