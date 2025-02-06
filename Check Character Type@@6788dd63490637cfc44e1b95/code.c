@@ -2,8 +2,8 @@
 #include <ctype.h>
 
 int main() {
-    char a[10];
-    scanf("%s",&a);
+    char a;
+    scanf("%s", a);
     if (isdigit(a)){
         printf("Digit");
     }
