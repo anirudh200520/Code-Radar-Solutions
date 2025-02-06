@@ -7,10 +7,13 @@ int main() {
     if (a==0){
         c=32;
     }
-    else((a & 1)==0){
+    else{
+        while ((a & 1)==0){
         a>>=1;
         c++;
     }
+    }
+
     printf("%d",c);
     return 0;
 }
