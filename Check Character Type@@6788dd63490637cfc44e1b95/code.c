@@ -3,21 +3,24 @@
 
 int main() {
     char a;
-    scanf("%s", a);
-    if (isdigit(a)){
-        printf("Digit");
-    }
-    else if (isalpha(a)){
-        a=tolower(a);
-        if (a=='a'||a=='e'||a=='i'||a=='o'||a=='u'){
-            printf("Vowel");
+    printf("Enter a character: ");
+    scanf(" %c", &a);  // Space before %c to handle newlines
+
+    if (isdigit((unsigned char)a)) {  // Check if digit
+        printf("Digit\n");
+    } 
+    else if (isalpha((unsigned char)a)) { // Check if alphabet
+        a = tolower(a); // Convert to lowercase
+
+        if (a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u') {
+            printf("Vowel\n");
+        } else {
+            printf("Consonant\n");
         }
-        else{
-            printf("Consonant");
-        }
-    }
+    } 
     else {
-        print("Special Character");
+        printf("Special Character\n");
     }
+
     return 0;
 }
