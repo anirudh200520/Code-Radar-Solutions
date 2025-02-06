@@ -9,7 +9,7 @@ int main() {
         p=-1;
     }
     else{
-        while ((num & 1)==0){
+        while ((a & 1)==0){
             num>>=1;
             p++;
         }
