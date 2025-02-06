@@ -5,8 +5,7 @@ int main() {
     scanf("%d",&a);
     int c = 0;
     if (a==0){
-        int d=32;
-        printf("%d",d);
+        c=0;
     }
     else{
         while(a & (1<<31)==0){
