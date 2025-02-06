@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int a,b;
+    scanf("%d",&a);
+    b=a%2;
+    if (b==1){
+        printf("Odd");
+    }
+    else if (b==-1){
+        printf("Odd");
+    }
+    else {
+        print("Odd");
+    }
+    return 0;
+}
