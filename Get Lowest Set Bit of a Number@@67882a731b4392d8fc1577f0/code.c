@@ -2,7 +2,7 @@
 
 int main() {
     int a,p;
-    p=0
+    p=0;
     scanf("%d",&a);
     
     if (a==0){
