@@ -6,7 +6,7 @@ int main() {
 
     for (int i = 1; i <= a; i++) {
         // Print spaces for centering
-        for (int o = 1; o <= a - i; o++) {
+        for (int o = 1; o <= a -1; o++) {
             printf(" ");
         }
 
