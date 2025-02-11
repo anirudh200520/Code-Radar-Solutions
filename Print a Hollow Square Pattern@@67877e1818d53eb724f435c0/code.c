@@ -8,12 +8,14 @@ int main(){
     }
     printf("\n");
     if (b>=1){
+        for (int y=1;y<=b ; y++){
         printf("*");
             for (int x=1; x<=b ; x++){
                 printf(" ");
             }
         printf("*\n");
         }
+    }
     }
 
 
