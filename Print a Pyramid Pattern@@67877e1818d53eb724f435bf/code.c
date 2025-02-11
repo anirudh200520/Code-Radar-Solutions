@@ -5,10 +5,14 @@ int main(){
     c=a-1;
     for(int i=1;i<=a;i++){
         b=(i*2)-1;
+    for (int q=c;q>=0;q--){
+        printf(" ");
+            
         for(int y=1;y<=b;y++){
             printf("*");
         }
         printf("\n");
+    }
     }
     return 0;
 }
