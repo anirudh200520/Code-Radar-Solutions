@@ -1,16 +1,22 @@
-# include <stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     int a;
-    scanf("%d",&a);
-    for (int i=1;i<=a;i++){
-        for (int o=1;o<a;o++){
+    scanf("%d", &a);
+
+    for (int i = 1; i <= a; i++) {
+        // Print spaces for centering
+        for (int o = 1; o <= a - i; o++) {
             printf(" ");
-        
-        for (int c=1;c<=i;c++){
+        }
+
+        // Print stars
+        for (int c = 1; c <= (2 * i - 1); c++) {
             printf("*");
         }
-        printf("\n");
+
+        printf("\n");  // Move to the next line
     }
-    }
+
     return 0;
 }
