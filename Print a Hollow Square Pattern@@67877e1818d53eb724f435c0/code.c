@@ -18,7 +18,7 @@ int main(){
     }
     if (a>1){
         for (int o=1;o<=a;o++){
-            printf("*")
+            printf("*");
         }
     }
     return 0;
