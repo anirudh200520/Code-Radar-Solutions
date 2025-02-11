@@ -5,13 +5,13 @@ int main() {
     scanf("%d", &a);
 
     for (int i = 1; i <= a; i++) {
-        // Print spaces for centering
-        for (int o = 1; o <= a -1; o++) {
+        // Print spaces first
+        for (int j = 1; j <= a - i; j++) {
             printf(" ");
         }
 
         // Print stars
-        for (int c = 1; c <= (2 * i - 1); c++) {
+        for (int k = 1; k <= i; k++) {
             printf("*");
         }
 
