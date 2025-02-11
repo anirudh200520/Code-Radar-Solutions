@@ -7,7 +7,7 @@ int main(){
         printf("*");
     }
     printf("\n");
-    if (b>1){
+    if (b>=1){
         for (int y=1; y<=b ; y++){
             printf("* *\n");
         }
