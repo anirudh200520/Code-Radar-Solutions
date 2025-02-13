@@ -12,14 +12,15 @@ int main (){
         } 
         printf("\n");
     }
-    for (int p=1;p<a;p++){
-        for (int q=1;q<a;q++){
+    for (int i = a - 1; i >= 1; i--) {
+        for (int o = 1; o <= (a - i); o++) {
             printf(" ");
         }
-        for (int s=(((a-1)*2)-1);c>=1;c--){
+        for (int j = 1; j <= (i * 2) - 1; j++) {
             printf("*");
         }
-
+        printf("\n");
     }
+
     return 0;
 }
