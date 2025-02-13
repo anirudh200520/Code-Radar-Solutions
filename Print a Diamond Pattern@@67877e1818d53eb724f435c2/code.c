@@ -16,8 +16,7 @@ int main (){
         for (int q=1;q<a;q++){
             printf(" ");
         }
-        c=((a-1)*2)-1;
-        for (int s=c;c>=1;c--){
+        for (int s=(((a-1)*2)-1);c>=1;c--){
             printf("*");
         }
 
