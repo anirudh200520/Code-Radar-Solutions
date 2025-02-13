@@ -12,4 +12,15 @@ int main (){
         } 
         printf("\n");
     }
+    for (int p=1;p<a;p++){
+        for (int q=1;q<a;q++){
+            printf(" ");
+        }
+        c=((a-1)*2)-1;
+        for (int s=c;c>=1;c--){
+            printf("*");
+        }
+
+    }
+    return 0;
 }
