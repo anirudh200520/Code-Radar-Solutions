@@ -1,6 +1,28 @@
 #include <stdio.h>
 int main(){
-    printf("1");
+    int a;
+    scanf("%d",&a);
+    for (int i=1;i<=a;i++){
+        for (int j=1;j<=i;i++){
+            if (i%2==1){
+                if(j%2==0){
+                    printf("1 ");
+                }
+                else{
+                    printf("0 ");
+                }
+                
+            }
+            else{
+                if(j%2==1){
+                    printf("1 ");
+                }
+                else{
+                    printf("0 ");
+                }
+            }
+        printf("\n");
+        }
+    }
     return 0;
-
 }
