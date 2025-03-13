@@ -3,6 +3,6 @@
 int main() {
     int a,b;
     scanf("%d",&a);
-    printf("Odd\0Even"+(a&1)*3);
+    printf("Even\0Odd"+(a&1)*5);
 
 }
