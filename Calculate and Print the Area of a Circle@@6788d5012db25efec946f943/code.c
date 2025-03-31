@@ -1,8 +1,6 @@
 #include <stdio.h>
 int main(){
-    float a,b;
-    scanf("%f",&a);
-    b=a*a*3.14;
-    printf("Area: %.2f",b);
-    return 0;
+    float a;
+    scanf("%d",&a);
+    printf("Area: %.2d",(3.14*a*a));
 }
