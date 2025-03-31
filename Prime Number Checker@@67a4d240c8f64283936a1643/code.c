@@ -5,11 +5,11 @@ int isPrime( int num ){
         if((num%i)==0){
             c=c+1;
         }
+    if (num==1 || num==0){
+        return 0;
     }
-    if  (num ==1 || num==0){
-        c==1;
-    }
-    if (c==0 || num==2  ){
+    
+    else if (c==0 || num==2  ){
         return 1;
     }
     else{
