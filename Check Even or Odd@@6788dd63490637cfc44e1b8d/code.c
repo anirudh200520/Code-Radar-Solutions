@@ -1,8 +1,11 @@
 #include <stdio.h>
-
-int main() {
-    int a,b;
+int main(){
+    int a;
     scanf("%d",&a);
-    printf("Odd\0Even"+(a&1)*4);
-
+    if ((a%2)==0){
+        printf("Even");
+    }
+    else{
+        printf("Odd");
+    }
 }
