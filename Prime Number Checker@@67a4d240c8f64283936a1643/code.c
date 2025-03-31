@@ -7,10 +7,10 @@ int isPrime( int num ){
         }
     }
     if (c==0 || num==2 ){
-        return 0;
+        return 1;
     }
     else{
-        return 1;
+        return 0;
     }
 }
 
