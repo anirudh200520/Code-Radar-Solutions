@@ -6,7 +6,7 @@ int rotate(int arr[], int a, int d){
         for (int j=0; j<(a-1); j++){
             arr[j]=arr[j+1];
         }
-        arr[d-1]=z;
+        arr[a-1]=z;
     }
 }
 
