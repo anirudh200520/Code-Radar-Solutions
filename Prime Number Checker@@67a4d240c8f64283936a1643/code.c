@@ -7,10 +7,10 @@ int isPrime( int num ){
         }
     }
     if (c==0 || num==2 ){
-        printf("0");
+        return 0;
     }
     else{
-        printf("1");
+        return 1;
     }
 }
 
