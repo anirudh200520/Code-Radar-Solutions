@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int rotate(int arr[], int a, int d){
-    for (i=0; i<d; i++){
+    for (int i=0; i<d; i++){
         int z= arr[0];
         for (int j=0; j<(a-1); j++){
             arr(j)=arr(j+1);
