@@ -12,6 +12,7 @@ int rotate(int arr[], int a, int d){
 
 int main(){
     int a; //size ==a
+    scanf("%d",&a);
     int arr[a];
     for (int i=0; i<a; i++){
         scanf("%d",&arr[i]);
