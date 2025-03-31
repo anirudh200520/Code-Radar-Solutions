@@ -7,6 +7,8 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int odd,even;
+    odd=0;
+    even=0;
     for (int z=0; z<a; z++){
         if(arr[z]%2==0){
             even=even+1;
