@@ -6,8 +6,11 @@ int isPrime( int num ){
             c=c+1;
         }
     }
-    if (c==0 || num==2 || num==1 || num==0 ){
+    if (c==0 || num==2  ){
         return 1;
+    }
+    else if (num==1 || num==0){
+        return 0;
     }
     else{
         return 0;
