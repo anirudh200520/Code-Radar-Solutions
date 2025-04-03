@@ -13,16 +13,20 @@ int sort(int arr[],int n){
 int maxGadgetSpend(int keyboards[],int n,int headsets[],int m,int budget){
     sort(keyboards,n);
     sort(headsets,m);
+    int w[m+n];
     if ( (keyboards[n-1]+headsets[m-1])>budget){
         return -1;
     }
+    int q=0
     for(int i=0; i<n; i++){
         for (int j=0; j<m; j++){
             if (keyboards[i]+headsets[j]<budget){
-                return keyboards[i]+headsets[j];
-                break;
+                w[q]=keyboards[i]+headsets[j];
+                q=q+1;
             }
         }
     }
+    sort(w,(q+1));
+    return w[0];
 }
 
