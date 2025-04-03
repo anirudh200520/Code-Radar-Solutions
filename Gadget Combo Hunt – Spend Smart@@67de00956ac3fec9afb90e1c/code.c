@@ -1,3 +1,3 @@
-int maxGadgetSpend(int keyboards[n],n,int headsets[m],m,budget){
+int maxGadgetSpend(int keyboards[n],int n,int headsets[m],int m,int budget){
 
 }
