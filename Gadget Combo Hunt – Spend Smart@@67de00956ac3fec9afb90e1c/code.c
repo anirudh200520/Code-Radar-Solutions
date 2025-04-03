@@ -26,7 +26,7 @@ int maxGadgetSpend(int keyboards[],int n,int headsets[],int m,int budget){
             }
         }
     }
-    sort(w,(q+1));
+    sort(w,q);
     return w[0];
 }
 
