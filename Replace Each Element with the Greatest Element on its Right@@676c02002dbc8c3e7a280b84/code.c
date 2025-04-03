@@ -1,5 +1,5 @@
 #include <stdio.h>
-int replace(int arr[]; int a; int i){
+int replace(int arr[], int a, int i){
     int max=arr[i+1];
     for (int j=i+2; j<a; j++){
         if (arr[j]>max){
