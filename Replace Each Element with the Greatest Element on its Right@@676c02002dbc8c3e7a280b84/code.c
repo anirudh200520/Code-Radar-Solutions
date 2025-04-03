@@ -7,7 +7,7 @@ int replace(int arr[], int a, int i){
         }
     }
     if (i==a){
-        max=-1;
+        max=(-1);
     }
     return max;
 }
