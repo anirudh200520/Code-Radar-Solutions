@@ -1,7 +1,7 @@
 int maxGadgetSpend(int keyboards[],int n,int headsets[],int m,int budget){
     sort(keyboards,n);
     sort(headsets,m);
-    if ( (keyboards[n]+headsets[m])>budget){
+    if ( (keyboards[n-1]+headsets[m-1])>budget){
         printf("-1");
     }
 }
