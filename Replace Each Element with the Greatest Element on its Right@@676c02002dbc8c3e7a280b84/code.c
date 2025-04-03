@@ -7,7 +7,7 @@ int replace(int arr[], int a, int i){
         }
     }
     if (i==a){
-        max=(-1);
+        return -1;
     }
     return max;
 }
@@ -18,7 +18,7 @@ int main(){
     for (int i=0; i<a; i++){
         scanf("%d", &arr[i]);
     }
-    for (int i=0; i<a; i++){
+    for (int i=0; i<(a-1); i++){
         max=replace(arr,a,i);
         printf("%d ",max);
     }
