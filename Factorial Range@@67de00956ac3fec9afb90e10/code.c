@@ -1,6 +1,6 @@
 int factorialRange(int start, int end){
+    int fact=1;
     for (int i=start; i<=end; i++){
-        int fact=1;
         fact=fact*i;
         if (i==0 || i==1){
             printf("1 \n");
