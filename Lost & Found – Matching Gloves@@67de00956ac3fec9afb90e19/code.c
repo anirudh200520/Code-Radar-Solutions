@@ -1,1 +1,3 @@
-// Your code here...
+int countGlovePairs(int gloves[], int n){
+    
+}
