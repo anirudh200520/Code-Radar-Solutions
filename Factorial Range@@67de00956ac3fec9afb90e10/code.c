@@ -1,6 +1,6 @@
 int factorialRange(int start, int end){
     int fact=1;
-    if (start < 0 || start <0 || start>end){
+    if (start < 0 || end <0 || start>end){
         printf("Invalid range");
     }
     else if(start == 0){
@@ -16,6 +16,7 @@ int factorialRange(int start, int end){
                 fact=fact*o;
             }
             printf("%d \n",fact);
+            fact=1;
         } 
     }
 }
