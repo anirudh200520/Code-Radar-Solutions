@@ -8,7 +8,7 @@ int main(){
         scanf("%d %d",&x,&y);
         float area =x*y;
         float peri =2*(x+y);
-        printf("Rectange %d: Area = %.2f, Perimeter = %.2f\n",(i+1),area,peri);
+        printf("Rectangle %d: Area = %.2f, Perimeter = %.2f\n",(i+1),area,peri);
     }
     return 0;
 }
