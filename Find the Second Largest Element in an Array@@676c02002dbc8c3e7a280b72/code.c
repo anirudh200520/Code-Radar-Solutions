@@ -16,5 +16,10 @@ int main(){
             }
         }
     }
+    if(a==1 || a==0 || arr[0]==arr[1]){
+        printf("-1");
+    }
+    else{
     printf("%d",arr[1]);
+    }
 }
