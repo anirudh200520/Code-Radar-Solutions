@@ -11,6 +11,7 @@ int main(){
     for (int i=0; i<a; i++){
         if (s==arr[i]){
             printf("%d",i);
+            break;
         }
         else{
             printf("-1");
