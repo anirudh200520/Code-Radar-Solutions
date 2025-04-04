@@ -18,6 +18,6 @@ int main(){
         
     }
     if(c==0){
-        printf("-1")
+        printf("-1");
     }
 }
