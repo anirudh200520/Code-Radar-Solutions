@@ -10,7 +10,7 @@ int selctionSort(int arr[],int n) {
     }
 }
 int printArray(int arr[], int n){
-    for (int i=0; i<a; i++){
+    for (int i=0; i<n; i++){
         printf(" %c",arr[i]);
     }
 }
