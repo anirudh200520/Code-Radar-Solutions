@@ -9,23 +9,23 @@ int main(){
 
     for(int i=0; i<a; i++){
         for (int j=(i+1); j<a; j++){
-            if (arr[i]<arr[j]){
+            if (arr[i]>arr[j]){
                 int temp = arr[i];
                 arr[i]=arr[j];
                 arr[j]=temp;
             }
         }
     }
-    int min =arr[0]-arr[1];
-    int b=arr[0];
-    int c=arr[1];
+    int min =arr[a-1]-arr[a-2];
+    int b=arr[a-1];
+    int c=arr[a-2];
     if (a==1){
         printf("-1");
     }
     else{
-    for (int i=1; i<a; i++){
-        for (int j=(i+1);j<a;j++){
-            if (arr[i]-arr[j]<min){
+    for (int i=(a-1); i<0; i--){
+        for (int j=(i-1);j<0;j--){
+            if (arr[j]-arr[i]<min){
                 min=arr[i]-arr[j];
                 b=arr[i];
                 c=arr[j];
