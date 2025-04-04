@@ -7,7 +7,8 @@ int main(){
         scanf("%d",&arr[i]);
     }
     if (a%2==1)
-    b=0,c=a-1;
+    b=0;
+    c=a-1;
     for (int z=0; z<((a-1)/2); z++){
         if (arr[b]==arr[c]){
             d=0;
