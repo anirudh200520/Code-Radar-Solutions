@@ -13,7 +13,6 @@ int main(){
                 for (int j=(i+1); j<a; j++){
                     if (arr[i]==arr[j]){
                         printf("%d",arr[i]);
-                        c=1;
                         }
                     }
                 }
