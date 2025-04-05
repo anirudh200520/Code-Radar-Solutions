@@ -13,7 +13,6 @@ int main(){
                 printf("%d",arr[i]);
                 c=1;
             }
-            break;
         }
     }
     if(c==0){
