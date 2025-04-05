@@ -16,10 +16,11 @@ int main(){
                         c=1;
                         }
                     }
-    }
-        }
-        else{
+                }
+            }
+        else if(c==1){
             printf("-1");
+            c=c+1;
         }
     }
 }
