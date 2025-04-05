@@ -9,13 +9,26 @@ int main(){
     }
     for (int i=0; i<a; i++){
         for (int j=(i+1); j<a; j++){
-            if (arr[i]==arr[j]){
-                printf("%d",arr[i]);
-                c=1;
+            if (arr[i]<arr[j]){
+                int temp=arr[i];
+                arr[i]=arr[j];
+                arr[j]=temp;
             }
         }
     }
-    if(c==0){
+
+
+    for (int i=0; i<a; i++){
+        for (int j=(i+1); j<a; j++){
+            if (arr[i]==arr[j]){
+                c=arr[i];
+            }
+        }
+    }
+    if (c==0 || a==1){
         printf("-1");
+    }
+    else{
+        printf("%d",c);
     }
 }
