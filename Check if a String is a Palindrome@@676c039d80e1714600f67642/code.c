@@ -7,9 +7,9 @@ int main(){
     int l= strlen(a);
 
     for (int i=(l-1); i>=0; i--){
-        word=word+a[i];
+        strncat(word, &a[i], 1);
     }
-    if (word == a){
+    if  (strcmp(word, a) == 0){
         printf("Yes");
     }
     else{
