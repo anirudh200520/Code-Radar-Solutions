@@ -1,17 +1,13 @@
 #include <stdio.h>
-#include <string.h>
-int main(){
-    char a[200];
-    int z=0;
-    int c=0;
-    scanf("%s",&a);
-    for(int i=0; z==0;  i++){
-        if (a[i]==' '){
-            z=1;
-        }
-        else{
-            c=c+1;
+int main() {
+    char str[200];
+    int count = 0; 
+    fgets(str, sizeof(str), stdin);
+    for (int i = 0; str[i] != '\0'; i++) {
+        if (str[i] != '\n') { 
+            count++;
         }
     }
-    printf("%d",c);
+    printf("%d", count);
+    return 0;
 }
