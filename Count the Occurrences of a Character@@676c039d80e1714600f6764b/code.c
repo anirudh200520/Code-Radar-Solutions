@@ -5,7 +5,7 @@ int main(){
     char b;
     int z=0;
     scanf("%s",&a);
-    scanf("%c",&b);
+    scanf(" %c",&b);
     int l=strlen(a);
     for(int i=0; i<l; i++){
         if (a[i]==b){
