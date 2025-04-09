@@ -7,7 +7,7 @@ int main(){
     scanf("%s",&a);
     scanf("%c",&b);
     int l=strlen(a);
-    for(int i=0; i<a; i++){
+    for(int i=0; i<l; i++){
         if (a[i]==b){
             z=z+1;
         }
