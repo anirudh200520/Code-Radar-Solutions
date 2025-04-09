@@ -3,8 +3,8 @@
 int main (){
     char a[200];
     char b[200];
-    scanf("%s",&a);
-    scanf("%s",&b);
+    fgets(a, sizeof(a), stdin);
+    fgets(b, sizeof(b), stdin);
     printf("%s%s",a,b);
 
 }
