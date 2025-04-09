@@ -5,6 +5,6 @@ int main (){
     char b[200];
     fgets(a, sizeof(a), stdin);
     fgets(b, sizeof(b), stdin);
-    printf("%s%s",a,b);
+    printf(strcat(a,b));
 
 }
