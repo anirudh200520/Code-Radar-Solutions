@@ -12,7 +12,7 @@ int main(){
         scanf("%f",&c);
         if(e<c){
             q=z;
-            w=x;
+            strcpy(w, x);
             e=c;
         }
     }
