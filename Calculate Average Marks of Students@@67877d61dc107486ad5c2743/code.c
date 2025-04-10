@@ -14,5 +14,5 @@ int main(){
 
     }
     average=max/a;
-    printf("Average Marks: %.2f",max);
+    printf("Average Marks: %.2f",average);
 }
