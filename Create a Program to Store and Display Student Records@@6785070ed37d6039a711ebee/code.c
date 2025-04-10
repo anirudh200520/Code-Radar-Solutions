@@ -9,6 +9,6 @@ int main(){
         scanf("%d",&z);
         scanf("%s",&x);
         scanf("%f",&c);
-        printf("Roll Number: %d, Name: %s, Marks: %.2f",z,x,c);
+        printf("Roll Number: %d, Name: %s, Marks: %.2f\n",z,x,c);
     }
 }
